@@ -4,7 +4,9 @@ import { TiledResource } from "@excaliburjs/plugin-tiled";
 import sword from "./images/sword.png";
 import logo from "./images/logo.png";
 import Abobra from "./images/abobra.png";
-import apresentacao from "./images/Firefly Faça uma arte em pixels de um homem apresentando 67929.jpg"
+import techgear from "./images/Techgear.jpg"
+import edulingo from "./images/EduLingo.jpg"
+import greentech from "./images/Greentech.jpg"
 
 import pngTilesetPath from "./maps/Room_Builder_32x32.png?url"
 
@@ -16,13 +18,17 @@ import tsxBibliotecaPath from "./maps/tileset_biblioteca?url"
 import tmxMapaPath from "./maps/showroom_map.tmx?url"
 
 import playerSpritePath from "./sprites/Principal.png"
+import recepcionistaSpritePath from "./sprites/Recepcionista.png"
 import ritmada from "./sounds/ritmada_zelda.mp3"
 export const Resources = {
   Sword: new ImageSource(sword),
   Logo: new ImageSource(logo),
   playerSpriteSheet: new ImageSource(playerSpritePath, {filtering:ImageFiltering.Pixel}),
+  recepcionistaSpritePath: new ImageSource(playerSpritePath, {filtering:ImageFiltering.Pixel}),
   abobra: new ImageSource(Abobra),
-  apresentacao: new ImageSource(apresentacao),
+  techgear: new ImageSource(techgear),
+  edulingo: new ImageSource(edulingo),
+  greentech: new ImageSource(greentech),
   ritmadaBGM: new Sound(ritmada),
   Mapa: new TiledResource(tmxMapaPath,
 

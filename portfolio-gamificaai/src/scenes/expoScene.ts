@@ -66,7 +66,7 @@ export class expoScene extends Scene{
             Color.Blue,
             "npcC",
         )
-        let npcD = new Npc(
+        let npcRoss= new Npc(
             vec(npcSpawnPointd.x + offsetX, npcSpawnPointd.y + offsetY),
             Color.Blue,
             "npcD",
@@ -74,7 +74,7 @@ export class expoScene extends Scene{
         this.add(npcA)
         this.add(npcB)
         this.add(npcC)
-        this.add(npcD)
+        this.add(npcRoss)
 
         //Adicionar colisão com cada objeto
 
